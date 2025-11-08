@@ -1,73 +1,45 @@
-# React + TypeScript + Vite
+# QORINET — Tecnología confiable para tu negocio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+QORINET ofrece soluciones tecnológicas integrales para empresas y hogares, combinando productos de calidad, desarrollo de software a medida y servicios técnicos especializados.
 
-Currently, two official plugins are available:
+## Servicios
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Software original y licencias
+  - Venta e implementación de software con licencias oficiales
+  - Asesoría en selección de herramientas y planes adecuados
+  - Soporte y actualizaciones
 
-## React Compiler
+- Computadoras, accesorios y suministros
+  - Equipos de alto rendimiento para trabajo y hogar
+  - Periféricos y accesorios de marcas confiables
+  - Suministros (cartuchos, toners, cables, etc.)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Desarrollo Web y de Software
+  - Sitios web modernos, responsivos y optimizados
+  - Aplicaciones móviles (nativas e híbridas)
+  - Alto rendimiento, seguridad y mejores prácticas
+  - Soluciones en la nube, métricas y analítica
 
-## Expanding the ESLint configuration
+- Servicios Técnicos Especializados
+  - Reparación de computadoras (hardware y software)
+  - Servicio de impresoras (láser e inyección)
+  - Instalación y configuración de redes (cableadas y WiFi)
+  - Cámaras de seguridad y sistemas CCTV
+  - Servicio a domicilio y garantía de servicio
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## ¿Por qué elegir QORINET?
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- Atención personalizada y rápida respuesta
+- Enfoque en resultados y calidad
+- Garantía en trabajos y productos
+- Transparencia y asesoría profesional
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Contacto
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- WhatsApp: [Escríbenos](https://wa.me/51976830280?text=Hola%20QORINET,%20me%20gustaría%20obtener%20más%20información%20sobre%20sus%20servicios.)
+- Correo: info@qorinet.com (ejemplo)
+- Sitio web: www.corinet.com
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+© {year} QORINET. Todos los derechos reservados.
