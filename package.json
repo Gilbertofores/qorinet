@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run build",
+    "prepare-cname": "echo qorinet.com > dist/CNAME",
+    "predeploy": "npm run build && npm run prepare-cname",
     "deploy": "gh-pages -d dist",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
